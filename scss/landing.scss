@@ -1,0 +1,14 @@
+.landing {
+	background: linear-gradient(rgba(0,0,0,0.25), rgba(0, 0, 0, 0.25)), url('https://s-media-cache-ak0.pinimg.com/736x/3b/d6/d1/3bd6d1360a74158ddc900133e0fea57f.jpg') no-repeat fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  	justify-content: center;
+  	padding: 0 1em;
+}
+
+.landing-logo {
+	font-size: 5em;
+	color: #f4f4f4;
+}

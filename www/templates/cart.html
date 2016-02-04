@@ -1,0 +1,25 @@
+<ion-view title="Your Order">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+     <ion-content class="has-header" >
+        <ion-list>
+            <ion-item class="item" ng-repeat="item in items">
+                <span>{{item.quantity}}</span>
+                <div class="food-container">
+                    <h3 class="normal-white-space food-title">{{item.name}}</h3>
+                       
+                </div>
+               
+                <span class="food-price">{{item.total | currency}}</span>
+          
+            </ion-item>
+            <ion-item class="item">
+              <span> Total </span>
+              {{total}}
+            </ion-item>
+            
+        </ion-list>
+        <button class="button button-block button-positive" type="submit">Checkout</button>
+    </ion-content>
+</ion-view>

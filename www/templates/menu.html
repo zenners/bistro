@@ -1,0 +1,22 @@
+<ion-view title="Menu">
+	<ion-nav-buttons side="left">
+    	<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  	</ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <a href="#/app/cart" class="button button-icon icon ion-ios-cart-outline">{{orderCount}}</a>
+    </ion-nav-buttons>
+    <ion-content padding="false" class="has-header">
+        <ion-list>
+            <ion-item class="no-padding" ng-repeat="category in categories">
+            	<a href="#/app/category/{{category.id}}" class="category-title no-padding">
+        		<div class="category" img-card="{{category.backgroundImage}}">
+            		 {{category.name}}
+            		 <div class="overlay"></div>	
+        		</div>
+            	</a>	 
+           
+            	
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/Zenners/.npm-packages/bin/npm', 'i', 'react' ]
+2 info using npm@2.13.0
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/Zenners/Desktop/ionic/food2/package.json
+5 warn package.json food2@1.0.0 No repository field.
+6 warn package.json food2@1.0.0 No README data
+7 warn package.json food2@1.0.0 No license field.
+8 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/bower/package.json
+9 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp/package.json
+10 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-autoprefixer/package.json
+11 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-concat/package.json
+12 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-minify-css/package.json
+13 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-rename/package.json
+14 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-sass/package.json
+15 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/gulp-util/package.json
+16 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/shelljs/package.json
+17 verbose installManyTop reading scoped package data from /Users/Zenners/Desktop/ionic/food2/node_modules/usergrid/package.json
+18 info package.json gulp-minify-css@0.3.13 No license field.
+19 info package.json gulp-rename@1.2.2 No license field.
+20 info package.json gulp-util@2.2.20 No license field.
+21 info package.json shelljs@0.3.0 license should be a valid SPDX license expression
+22 info package.json usergrid@0.10.9 license should be a valid SPDX license expression
+23 verbose readDependencies loading dependencies from /Users/Zenners/Desktop/ionic/food2/package.json
+24 silly cache add args [ 'react', null ]
+25 verbose cache add spec react
+26 silly cache add parsed spec { raw: 'react',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'react',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed react@*
+28 verbose addNamed "*" is a valid semver range for react
+29 silly addNameRange { name: 'react', range: '*', hasData: false }
+30 silly mapToRegistry name react
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/react
+34 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+35 verbose request uri https://registry.npmjs.org/react
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 2:19:10 AM
+38 verbose request id 47cc0dce63f2a0f3
+39 http request GET https://registry.npmjs.org/react
+40 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+41 info attempt registry request try #2 at 2:19:22 AM
+42 http request GET https://registry.npmjs.org/react
+43 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+44 info attempt registry request try #3 at 2:20:22 AM
+45 http request GET https://registry.npmjs.org/react
+46 verbose stack Error: self signed certificate in certificate chain
+46 verbose stack     at Error (native)
+46 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:929:36)
+46 verbose stack     at TLSSocket.emit (events.js:104:17)
+46 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:460:8)
+47 verbose cwd /Users/Zenners/Desktop/ionic/food2
+48 error Darwin 14.3.0
+49 error argv "node" "/Users/Zenners/.npm-packages/bin/npm" "i" "react"
+50 error node v0.12.7
+51 error npm  v2.13.0
+52 error code SELF_SIGNED_CERT_IN_CHAIN
+53 error self signed certificate in certificate chain
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]

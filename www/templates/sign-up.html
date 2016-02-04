@@ -1,0 +1,29 @@
+<ion-view title="Signup">
+    <ion-content padding="" scroll="true" class="has-header">
+        <form>
+            <ion-list>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label calm">Email</span>
+                    <input type="text" ng-model="data.email" placeholder="Email">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label calm">Username</span>
+                    <input type="text" ng-model="data.username" placeholder="Username">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label calm">Password</span>
+                    <input type="text" ng-model="data.password" placeholder="Password">
+                </label>
+            </ion-list>
+            <div class="pad1em">
+                <button ng-click="signupEmail()" class="button button-balanced button-block ">Sign up</button>
+                    <div>
+                        <hr>
+                        <h4 style="text-align: center;">Or</h4>
+                    </div>
+                    <button class="button button-calm button-block  icon-left ion-social-facebook">Sign up with Facebook</button>    
+            </div>
+            
+        </form>
+    </ion-content>
+</ion-view>
